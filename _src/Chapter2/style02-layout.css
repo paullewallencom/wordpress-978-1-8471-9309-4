@@ -1,0 +1,220 @@
+/* 
+Enter WP Design & Creation Comments Here
+
+*/
+
+/*////////// GENERAL //////////*/
+body {
+ margin: 0px;
+}
+
+#container {
+  margin: 0 auto;
+  width: 900px;
+  border: 1px solid #666666;
+  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height:16px;
+  color: #666666;
+}
+	  
+#container2 {
+  border: 1px solid #0000ff;
+}
+
+#container3 {
+  width: 670px;
+  float:left;
+  border: 1px solid #ff0000;
+}
+
+/*////////// TYPEOGRAPHY //////////*/
+h1, h4 {
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+h2, h3{
+  font-family: Georgia, Times, serif;
+}
+		
+h1 {
+  font-size: 32px;
+}
+		
+h2 {
+  font-size: 22px;
+  line-height:24px;
+}
+		
+h3 {
+  font-size: 16px;
+}
+	
+h4 {
+  font-size: 14px;
+}
+
+p {
+  margin-bottom: 18px;
+}
+		
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+		
+a:visited {}
+	 	 
+
+/*////////// HEADERS //////////*/
+#header {
+   border: 1px solid #00ff00;
+   width: 930px;
+   height: 300px;
+   /*background: #666666;url("images/css_cs_header.jpg") no-repeat left top;*/
+}
+	
+#header p, #header h1, #header h2/**/ { 
+   /*display: none;*/
+}
+
+/*////////// CONTENT //////////*/
+#content {
+ margin:0 10px;
+ width: 420px;
+ float:left;
+ border: 1px solid #333333;
+}
+			
+  
+/*////////// SIDEBARS //////////*/
+#sidebarLT {
+  margin:0;
+  width:200px;
+  border: 1px solid #ff9900;
+  float:right;
+}
+
+#sidebarRT {
+ margin:0 10px;
+ width: 200px;
+ float: right;
+ border: 1px solid #0000ff;
+}
+
+
+/*////////// NAV //////////*/
+
+#top_navlist {
+  position: absolute;
+  top: 240px;
+  width: 900px;
+  text-align:right;
+  border: 1px solid #003333;
+}
+
+#top_navlist h2{
+  display: none;
+}
+
+#navlist{
+  padding: 10px 10px;
+  margin-left: 0;
+  border-bottom: 1px solid #778;
+  font-weight: bold;
+}
+
+#navlist li{
+  list-style: none;
+  margin: 0;
+  display: inline;
+}
+
+#navlist li a{
+  padding: 11px 30px;
+  margin-left: 3px;
+  border: 1px solid #778;
+  border-bottom: none;
+  background: #DDE;
+ text-decoration: none;
+}
+
+#navlist li a:link { color: #448; }
+#navlist li a:visited { color: #667; }
+
+#navlist li a:hover{
+  color: #000;
+  background: #AAE;
+  border-color: #227;
+}
+
+#navlist li.current_page_item a{
+  background: white;
+  border-bottom: 1px solid white;
+}
+
+/*TOC Nav*/
+.tocNav{
+  padding-left: 0; 
+  margin-left: 0;
+  border-bottom: 1px solid gray;
+  width: 200px;
+}
+
+.tocNav li{
+  list-style: none;
+  margin: 0;
+  padding: 0.25em;
+  border-top: 1px solid gray;
+}
+
+.tocNav li a { text-decoration: none; }
+/*////////// BLOG ELEMENTS //////////*/
+
+		
+/*////////// FORMS //////////*/
+
+
+/*////////// FOOTER //////////*/
+#pushbottom{
+ clear:both;
+}
+#footer {
+ border: 1px solid #000033;
+ height: 85px;
+}
+
+#footer h3{
+ display:none;
+}
+
+#footerRight{
+ margin: 0 10px 0 0;
+ width:430px;
+ float:right;
+ text-align: center;
+ border: 1px solid #552200;
+}
+
+#footerLeft{
+ margin: 0 0 0 10px;
+ width: 430px;
+ float:left;
+ text-align:center;
+ border: 1px solid #332200;
+}
+		
+/*////////// IMAGES //////////*/		
+
+
+/*////// FUN CLASSES ///////////*/
+/*any little extra flares and fun design 
+elements you want to add can go here*/
+
+
+
+

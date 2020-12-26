@@ -1,0 +1,411 @@
+/*  Theme Name: 01 OO Magazine Sample for Chapter 08
+Theme URI: http://wpdev25.eternalurbanyouth.com/
+Description: A WordPress Theme created originally for <a href='http://insideopenoffice.org'>InsideOpenOffice.org</a> and then modified for Packt Publishing's WordPress Theme Design.
+Version: 1.3
+Author: Tessa Blakeley Silver
+Author URI: http://hyper3media.com/
+	OpenSource Magazine WordPress Theme by Tessa Blakeley Silver is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.
+*/
+
+/*////////// GENERAL //////////*/
+body {
+ margin: 0px;
+ margin-top: 10px;
+}
+
+#container {
+  margin: 0 auto;
+  width: 897px;
+  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height:16px;
+}
+	  
+#container2 {
+  border-left: 1px solid #999999;
+  border-right: 1px solid #999999;
+  padding-top: 60px;
+}
+
+#container3 {
+  width: 670px;
+  float:left;
+}
+
+
+
+/*////////// TYPEOGRAPHY //////////*/
+h1, h4 {
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #784B2C;
+  margin-bottom: 10px;
+}
+
+h2, h3{
+  font-family: Georgia, Times, serif;
+  color: #253A59;
+  margin-bottom: 10px;
+}
+		
+h1 {
+  font-size: 32px;
+}
+		
+h2 {
+  font-size: 22px;
+  line-height:24px;
+}
+		
+h3 {
+  font-size: 16px;
+}
+	
+h4 {
+  font-size: 14px;
+}
+
+p {
+  margin-bottom: 18px;
+}
+		
+a {
+  color: #315a6c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #6a94a7;
+  text-decoration: underline;
+}
+		
+a:visited {
+  color: #8f8d66;
+}
+
+	 	 
+
+/*////////// HEADERS //////////*/
+#header {
+   width: 930px;
+   height: 250px;
+   background: url("images/oo_mag_header.jpg") no-repeat left top;
+}
+
+#intHeader{
+   width: 930px;
+   height: 180px;
+   background: url("images/oo_mag_intHeader.jpg") no-repeat left top;
+}
+
+#header #date{
+   position:absolute;
+   font-family: Georgia, Times, serif;
+   font-size: 16px;
+   margin-top: 160px;
+   margin-left: 25px;
+   color:#253A59;
+}
+
+#intHeader #date{
+   position:absolute;
+   width: 230px;
+   font-family: Georgia, Times, serif;
+   font-size: 16px;
+   margin-top: 150px;
+   margin-left: 293px;
+   text-align: right;
+   color:#253A59;
+}
+
+#header p, #header h1, #header h2, #intHeader p, #intHeader h1, #intHeader h2 { 
+   display: none;
+}
+
+/*///Text Headers///*/
+.thisMonth{
+ margin-top: 0;
+ height: 56px;
+ line-height: 85px;
+ background-color: #9E745E;
+ background: url(images/oo_mag_thisMonth_bg.gif) repeat-x top;
+ font-size: 42px;
+ font-weight: normal;
+ color: #ffffff;
+ border: 1px solid #9E745E;
+}
+
+.features{
+ margin-top: 0;
+ height: 46px;
+ line-height: 70px;
+ background-color: #9E9C76;
+ background: url(images/oo_mag_featurs_bg.jpg) repeat-x top;
+ font-size: 36px;
+ font-weight: normal;
+ color: #ffffff;
+ border: 1px solid #9E9C76;
+}
+
+.columns{
+ margin-top: 0;
+ height: 46px;
+ line-height: 70px;
+ background-color: #253A59;
+ background: url(images/oo_mag_columns_bg.jpg) repeat-x top;
+ font-size: 36px;
+ font-weight: normal;
+ color: #ffffff;
+ border: 1px solid #253A59;
+}
+
+.pastIssues{
+ margin-top: 0;
+ height: 46px;
+ line-height: 70px;
+ font-family: Georgia, Times, serif;
+ font-size: 31px;
+ font-weight: normal;
+ color: #305669;
+}
+
+/*////////// CONTENT //////////*/
+#content {
+ margin:0 0 0 10px;
+ width: 430px;
+ float:left;
+}
+
+#pgContent {
+ margin:0 0 0 10px;
+ width: 650px;
+ float:left;
+}
+			
+  
+/*////////// SIDEBARS //////////*/
+#sidebarLT {
+  margin:0;
+  width:212px;
+  float:right;
+}
+
+#sidebarRT {
+ margin:0 10px;
+ width: 200px;
+ float: right;
+}
+
+
+/*////////// NAV //////////*/
+
+#top_navlist {
+  position: absolute;
+  top: 260px;
+  width: 897px;
+  text-align:right;
+}
+
+#intTop_navlist {
+  position: absolute;
+  top: 173px;
+  width: 897px;
+  text-align:right;
+}
+
+#top_navlist h2, #intTop_navlist h2{
+  display: none;
+}
+
+#navlist{
+  padding: 10px 10px;
+  margin-left: 0;
+  border-bottom: 1px solid #ccc;
+  font-family: Georgia, Times, serif;
+  font-weight: bold;
+}
+
+#navlist li{
+  list-style: none;
+  margin: 0;
+  display: inline;
+}
+
+#navlist li a{
+  padding: 11px 30px;
+  margin-left: 3px;
+  border: none;
+  border-left: 1px solid #ccc;
+  background: #8BA8BA url(images/oo_mag_main_nav.jpg) no-repeat top right;
+  text-decoration: none;
+  color: #253A59;
+}
+
+#navlist li a:hover{
+  background-color: #9E9C76;
+  background-position: right -37px;
+  border-color: #C5BBA0;
+  color: #784B2C;
+  text-decoration: underline;
+}
+
+#navlist li.current_page_item a{
+  border-bottom: 1px solid white;
+  background-color: #fff;
+  background-position: right -74px;
+}
+
+#navlist li a:visited { color: #253A59; }
+
+/*TOC Nav*/
+.tocNav{
+  padding-left: 0; 
+  margin-left: 0;
+  border-bottom: 1px solid gray;
+}
+
+.tocNav li{
+  list-style: none;
+  margin: 0;
+  padding: 0.25em;
+  border-top: 1px solid gray;
+}
+
+.tocNav li a { text-decoration: none; }
+.tocNav li a:hover {text-decoration: underline;}
+
+/*////////// BLOG ELEMENTS //////////*/
+.comments{
+ margin-top: 0;
+ margin-bottom: 5px;
+ padding-left: 10px;
+ padding-right: 10px;
+ height: 46px;
+ line-height: 46px;
+ background-color: #C5BBA0;
+ background: url(images/oo_mag_comment_bg.jpg) repeat-x top;
+ font-size: 12px;
+ font-weight: normal;
+ color: #333;
+ border: 1px solid #C5BBA0;
+}
+
+.commentIcon{
+ width: 100px;
+ padding-left: 23px;
+ float: left;
+ background-color: #253A59;
+ background: url(images/oo_mag_comment_icon.jpg) no-repeat top left;
+ height: 46px;
+}
+
+.comments a{
+ float: right;
+}
+
+.bigNum{
+  font-size: 16px;
+  font-weight: bold; 
+}
+
+.authorName {
+  font-size: 11px;
+}
+		
+/*////////// FORMS //////////*/
+textarea{
+ width: 430px;
+ height: 200px;
+ border: 1px solid #9E9C76;
+}
+
+input{
+ width: 230px;
+ border: 1px solid #253A59;
+ background-color: #ffffff;
+
+}
+
+#submit, #searchsubmit{
+ width: 150px;
+ border: 1px solid #253A59;
+ background-color: #8BA8BA;
+ color: #ffffff;
+}
+
+/*////////// FOOTER //////////*/
+#pushbottom{
+ clear:both;
+}
+#footer {
+ height: 105px;
+ width: 910px;
+ background: url(images/oo_mag_footer.jpg) no-repeat bottom left;
+ /*border: 1px solid #999;*/
+ /*border-top:none;*/
+}
+
+#footer h3{
+ display:none;
+}
+
+#footContain{
+ width: 897px;
+}
+
+#footerRight{
+ margin: 0 10px 0 0;
+ background: #C5BBA0 url(images/oo_mag_footerRt_bg.gif) repeat-x top;
+ width:430px;
+ height: 72px;
+ float:right;
+ text-align: center;
+ border: 1px solid #C5BBA0;
+}
+
+#footerLeft{
+ margin: 0 0 0 10px;
+ background: #8BA8BA url(images/oo_mag_footerLft_bg.jpg) repeat-x top;
+ width: 430px;
+ height: 72px;
+ float:left;
+ text-align:center;
+ border: 1px solid #8BA8BA;
+}
+		
+/*////////// IMAGES //////////*/		
+
+
+/*////// FUN CLASSES ///////////*/
+/*any little extra flares and fun design 
+elements you want to add can go here*/
+#sidebar2{
+margin: 0;
+}
+
+#widgetItems{
+margin: 0;
+margin-left: 15px;
+margin-right:5px;
+margin-top: -17px;
+padding-bottom: 20px;
+}
+
+#widgetItems li {
+list-style:none;
+}
+
+
+
+#widgetItems h2{
+ font-size: 16px;
+}
+
+.fakeSidebar{
+ height: 500px;
+ background: url("images/oo_sample_sidebar2.jpg") no-repeat center top;
+}
+
+
+
+

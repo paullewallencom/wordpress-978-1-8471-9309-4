@@ -1,0 +1,17 @@
+light-grey-blue: .#8BA8BA - background & highlights
+
+med-tan .#9E9C76: - some headers
+
+light-tan .#C5BBA0 - highlights
+
+dark-blue .#253A59 - some headers
+
+white .#FFFFFF - text background
+
+dark-reddish .#784B2C - links
+
+light-reddish .#9E745E - link hovers
+
+blue-green .#527382 - some highlights
+
+black .#000000 - text

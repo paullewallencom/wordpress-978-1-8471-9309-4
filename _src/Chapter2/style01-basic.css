@@ -1,0 +1,77 @@
+/* 
+Enter WP Design & Creation Comments Here
+
+*/
+
+/*////////// GENERAL //////////*/
+body {}
+
+#container {}
+	  
+#container2 {}
+
+#container3 {}
+
+/*////////// TYPEOGRAPHY //////////*/
+		
+h1 {}
+		
+h2 {}
+		
+h3 {}
+	
+h4 {}
+
+p {}
+		
+a {}
+
+a:hover {}
+		
+a:visited {}
+	 	 
+
+/*////////// HEADERS //////////*/
+#header {
+   /*background: #666666;url("images/css_cs_header.jpg") no-repeat left top;*/
+}
+	
+#header p, #header h1, #header h2/**/ { 
+   /*display: none;*/
+}
+
+/*////////// CONTENT //////////*/
+#content {}
+			
+  
+/*////////// SIDEBARS //////////*/
+#sidebarLT {}
+
+#sidebarRT {}
+
+
+/*////////// NAV //////////*/
+
+#top_navlist {}
+  
+#top_navlist{}
+
+/*////////// BLOG ELEMENTS //////////*/
+
+		
+/*////////// FORMS //////////*/
+
+
+/*////////// FOOTER //////////*/
+#footer {}
+		
+/*////////// IMAGES //////////*/		
+
+
+/*////// FUN CLASSES ///////////*/
+/*any little extra flares and fun design 
+elements you want to add can go here*/
+
+
+
+
